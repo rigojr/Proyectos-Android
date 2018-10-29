@@ -2,6 +2,9 @@ package android.example.com.droidcafe;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.RadioButton;
 import android.widget.Toast;
 
 public class OrderActivity extends AppCompatActivity {
@@ -43,7 +46,6 @@ public class OrderActivity extends AppCompatActivity {
                             getString(R.string.pick_up));
                 break;
             default:
-                157
                 Log.d(TAG_ACTIVITY, getString(R.string.nothing_clicked));
                 break;
         }
